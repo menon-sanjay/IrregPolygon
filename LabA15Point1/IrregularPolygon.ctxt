@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=IrregularPolygon()
+comment1.params=x\ y
+comment1.target=void\ add(double,\ double)
+comment2.params=
+comment2.target=void\ draw()
+comment3.params=
+comment3.target=double\ perimeter()
+comment4.params=
+comment4.target=double\ area()
+comment5.params=
+comment5.target=boolean\ check()
+numComments=6
