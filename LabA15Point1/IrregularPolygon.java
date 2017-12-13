@@ -1,5 +1,6 @@
 /**
  * SanjayMenon
+ 3rd period
  */
 import java.awt.geom.*;     // for Point2D.Double
 import java.util.ArrayList; // for ArrayList
@@ -31,10 +32,10 @@ public class IrregularPolygon{
     {
       pen.move(myPolygon.get(i).getX(), myPolygon.get(i).getY());                                                                               
     }
-    //moves back to the 1st point
+ 
     pen.move(myPolygon.get(0).getX(), myPolygon.get(0).getY());
    }
-    //find perimeter of the polygon
+  
    public double perimeter() 
    {
     double perimeter = 0;
@@ -51,7 +52,6 @@ public class IrregularPolygon{
     }
     return perimeter;
     }  
-    //find area of the polygon
    public double area() 
    {
     int a = 0; //to get  xs
@@ -74,15 +74,17 @@ public class IrregularPolygon{
      }
      return Math.abs(area);
     }
-    //checks if it is a polygon
+    public String getName(){
+       return "Sanjay Menon";
+    }
    public boolean check()
    {
-    //checks if there are more then 2 points
+    
     if (myPolygon.size() < 3)
     {
       return false;
     }
-    //makes list of lines
+   
     ArrayList <Line2D.Double> isPolygon = new ArrayList <Line2D.Double>();
     for (int i = 0; i < myPolygon.size(); i++)
     {
